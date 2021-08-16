@@ -1,10 +1,5 @@
 module.exports = {
   images: {
-    domains: [
-      "i.ibb.co",
-      "links.papareact.com",
-
-      "www.json-generator.com/api/json/get",
-    ],
+    domains: ["i.ibb.co", "links.papareact.com", "https://jsonkeeper.com/b/"],
   },
 };

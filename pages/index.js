@@ -18,7 +18,7 @@ export default function Home({ exploreData, cardsData, discoverData }) {
       </Head>
 
       {/* Header */}
-      <Header />
+      <Header page="Home" />
       {/* Banner */}
       <Banner />
 
@@ -86,9 +86,9 @@ export async function getStaticProps() {
   const cardsData = await fetch("https://links.papareact.com/zp1").then((res) =>
     res.json()
   );
-  const discoverData = await fetch(
-    "http://www.json-generator.com/api/json/get/bVmPnJPglK?indent=2"
-  ).then((res) => res.json());
+  const discoverData = await fetch("https://jsonkeeper.com/b/8XLH").then(
+    (res) => res.json()
+  );
   return {
     props: {
       exploreData,
