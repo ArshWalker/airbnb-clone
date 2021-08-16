@@ -16,7 +16,7 @@ function Footer() {
           <p>Acessibility</p>
           <p>This is ❌ official site</p>
           <p>This is clone</p>
-          <p>Support this</p>
+          <p>Support us</p>
           <p>Walker Join</p>
         </div>
         <div className="space-y-4 text-s text-gray-800 dark:text-white">
